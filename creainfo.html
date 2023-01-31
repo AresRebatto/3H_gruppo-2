@@ -73,15 +73,30 @@
             </div>
         </a>
       <br>
+      <div class="popUp" id="popup">
+        <input type="button" value="X" class="close" onclick="closePopUp()">
+        <div class="popUpContent">
+          <h1>COOKIES</h1>
+          <p class="cookiesText">Questo sito fa uso dei cookies. Premere "Accetta tutti" per accettare, "rifiuta tutti" per rifiutare o "personalizza" per personalizzare le impostazioni</p>
+          <div class="answer">
+            <input type="button" value="Rifiuta Tutti" class="reject" onclick="closePopUp()">
+            <input type="button" value="Personalizza" class="customize" onclick="Customize()">
+            <input type="button" value="Accetta Tutti" class="accept" onclick="closePopUp()">
+          </div>
+        </div>
+      </div>
     </section>
     <footer>
         <div class="infoFooter">
             <p class="infoElement"><b>Tel. +39 123 456 7890</b></p>
             <p class="infoElement"><b>e-mail info@HAG&co.com</b></p>
             <p class="infoElement"><b>Sito a cura di HAG</b></p><br><br>
-            <a href="privacy policy.html">
-                <p class="pvtPolicy">Privacy Policy</p>
-            </a>
+            <div class="policy">
+                <input type="button" value="cookies policy" class="cookiebtn" onclick="openPopUp()">
+                <a href="privacy policy.html">
+                  <p class="pvtPolicy">Privacy Policy</p>
+                </a>
+              </div>
         </div>
 
         <div class="social">
@@ -93,5 +108,5 @@
         <hr>
         <p class="copyright">©2023 All rights Reserved</p>
     </footer>
-
+    <script src="cookie.js"></script>
 </html>

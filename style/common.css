@@ -176,6 +176,7 @@ footer
 {
   position: relative;
   top: 90%;
+  left: 20px;
 }
 .pvtPolicy:hover
 {
@@ -230,12 +231,12 @@ hr
 .popUp
 {
   visibility: hidden;
-  height: 700px;
+  height: 400px;
   width: 600px;
-  background-color: white;
+  background-color: rgb(243, 243, 243);
   border-radius: 20px;
   position: absolute;
-  bottom: 15%;
+  bottom: 40%;
   right: 30%;
   transition: 0.5s;
 }
@@ -243,4 +244,79 @@ hr
 .openpopUp
 {
   visibility: visible;
+}
+
+.close
+{
+  padding: 0;
+  border: none;
+  background: none;
+  position: relative;
+  left: 95%;
+  top: 2%;
+}
+
+.popUpContent
+{
+  width: 80%;
+  position: relative;
+  left: 5%;
+}
+
+.cookiesText
+{
+  font-size: large;
+}
+
+.answer
+{
+  position: relative;
+  top: 50px;
+  left: 40%;
+}
+
+.accept
+{
+  border: none;
+  background-color: #06d1ff;
+  border-radius: 17px;
+  padding: 8px;
+  padding-left: 11px;
+  padding-right: 11px;
+  
+}
+
+.reject
+{
+  background-color: white;
+  border-color: #000000;
+  border-radius: 17px;
+  padding: 8px;
+  
+}
+
+.customize
+{
+  background-color: white;
+  border-color: #000000;
+  border-radius: 17px;
+  padding: 8px;
+}
+
+.policy
+{
+  display: flex;
+  position: relative;
+  bottom: 25px;
+}
+
+.cookiebtn
+{
+  background-color: #D4D4D4;
+  border: none;
+  padding: 0px;
+  font-size: 12px;
+  text-decoration: underline;
+  position: relative;
+  top: 35px;
 }
