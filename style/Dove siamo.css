@@ -1,0 +1,48 @@
+.pDove
+{
+  font-size: 22px;
+  padding-left: 10px;
+  position: absolute;
+  left:50%;
+  top: 20.5%;
+  right: 8%;
+}
+.sectionDove
+{
+  background-image: url("Component1.png");
+  height: 110%;
+  width: 100%;
+  position: absolute;
+  top: 15%;
+  display: flex;
+  
+}
+
+a
+{
+  text-decoration: none;
+}
+
+iframe
+{
+  width: 32.9%;
+  height: 30%;
+  position: absolute;
+  top: 8%;
+  left: 5%;
+}
+
+.immagine
+{
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  height:30%;
+  width:32.9%;
+}
+.images
+{
+  width: 45%;
+  height:100%;
+  background-color: #BCBCBC;
+}

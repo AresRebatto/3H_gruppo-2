@@ -1,0 +1,66 @@
+section
+{
+    position: relative;
+    top: 15%;
+    height: 85%;
+    display: flex;
+}
+
+.DaVinci
+{
+    width: 50%;
+    height: 100%;
+    background-color: #C9C9C9;
+}
+
+.Belluzzi
+{
+    width: 50%;
+    height: 100%;
+    background-color: #AEAEAE;
+}
+
+.txtDaVinci
+{
+    font-size: 25px;
+    position: relative;
+    left: 5%;
+    width: 80%;
+}
+
+.txtBelluzzi
+{
+    font-size: 25px;
+    position: relative;
+    left: 5%;
+    width: 80%;
+    text-align: right;
+}
+
+.contenute
+{
+    display: flex;
+}
+
+.OdoneImg
+{
+    position: relative;
+    right: 2%;
+    top: 70px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+
+}
+
+.DaVinciImg
+{
+    position: relative;
+    left: 7%;
+    top: 100px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+
+
+}

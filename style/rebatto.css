@@ -1,0 +1,21 @@
+section
+{
+    position: relative;
+    top: 15%;
+    left: 5%;
+    display: flex;
+}
+
+.text
+{
+    width: 40%;
+    font-size: 25px;
+}
+
+.immagine
+{
+    padding-left: 20%;
+    padding-top: 3%;
+    height:300px;
+    width: 300px;
+}

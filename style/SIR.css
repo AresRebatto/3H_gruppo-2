@@ -1,0 +1,63 @@
+section
+{
+  position: relative;
+  top: 15%;
+  display: flex;
+  background-color: #CCCCCC;
+  height: 85%;
+}
+
+.content
+{
+  width: 64%;
+  position: relative;
+  left: 2%;
+  font-size: 24px;
+}
+
+.flashcard
+{
+  background-color: #C2C2C2;
+  position: relative;
+  right: -7.3%;
+  width: 28.3%;
+  height: 100%;
+}
+
+h1
+{
+  color: #3A3939;
+}
+
+.box
+{
+  height: 30%;
+  border: solid;
+  border-width: 0.5px;
+  border-bottom: 0px;
+  color: black;
+}
+
+.boxNd
+{
+  height: 30.5%;
+  border: solid;
+  border-width: 0.5px;
+  color: black;
+}
+
+.crd_ttl
+{
+  text-align: center;
+  font-size: 18px;
+  height: 3%;
+}
+
+.frst_crd
+{
+  position: relative;
+  left: 3%;
+  width: 80%;
+  font-size: 19px;
+  
+}

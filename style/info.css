@@ -1,0 +1,126 @@
+/* 最外层，用于右侧彩条相对于最外层定位 */
+.card-wrap {
+    position: relative;
+    width: 700px;
+    background-color:#D4D4D4;
+}
+/* 卡片列表，实现横向排列 */
+.card-list {
+    display: flex;
+    padding: 30px 0 30px 30px;
+    flex-direction: column;
+    height: 330px;
+    flex-wrap: wrap;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+
+/* 彩条在 :after 上渲染，使用绝对定位固定位置 */
+.card-list:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 30px;
+    height: 300px;
+    width: 5px;
+    border-radius: 5px;
+    background: linear-gradient( 130deg, #d30004, #c99a00 41.07%, #0f7100 76.05%);
+    box-shadow: -10px 0 20px 3px #000;
+}
+
+/* 单个卡片样式 */
+.card-item {
+    box-sizing: border-box;
+    width: 230px;
+    height: 300px;
+    transition: all .2s;/* 使用过渡动画 0.2秒内完成 */
+    padding: 15px;
+    border-radius: 16px;
+    background: linear-gradient( 85deg, #434343, #262626);
+    color: #fff;
+    font: bold 20px Bellota Text;
+    display: flex;
+    flex-direction: column;
+    box-shadow: -20px 0 30px -20px #000;
+}
+
+/* 卡片 margin-left 为负数，实现层叠效果（排除第一个卡片） */
+.card-item:not(:first-child) {
+    margin-left: -120px;
+}
+
+/*鼠标经过某个卡片时，向左与向上分别偏移，并旋转*/
+.card-item:hover {
+    transform: translate(-0.5rem, -1rem) rotate( 3deg);
+}
+
+/*鼠标经过某个卡片时，除了该卡片之外的所有 class 为 "card-item" 的卡片向右偏移*/
+.card-item:hover~.card-item {
+    transform: translateX(120px);
+}
+.zhanwei{
+    height: 120px;
+}
+#left{
+    text-align: left;
+    font: bold 25px Bellota Text;
+}
+#right{
+    text-align: right;
+    font: bold 25px Bellota Text;
+}
+a {
+    text-decoration: none;
+}
+.p{
+    font: bold 20px Bellota Text; 
+}
+#white{
+    background-color: #D4D4D4;
+    border-radius: 10px;
+    color: black;
+}
+#home{
+    background-color: #2bab38;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+}
+.zhanwei1{
+    height: 70px;
+    width: auto;
+}
+td{
+    font: bold 20px Bellota Text; 
+}
+table{
+    border-collapse: separate;
+    border-spacing: auto auto;
+    text-align: center;
+}
+td{
+    text-align: left;
+}
+#bai{
+    background-color: white;
+}
+.text
+{
+  position:relative;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 43px;
+  margin-right: 40%;
+}
+.heading
+{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+}
+.immagine
+{
+  position: absolute;
+  top: 25%;
+  left: 73%;
+}

@@ -1,0 +1,27 @@
+.text
+{
+  position:relative;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 43px;
+  margin-right: 40%;
+}
+section
+{
+  position: absolute;
+  top: 13%;
+  background-color: #CCCCCC;
+  height: 95%;
+}
+.heading
+{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+}
+.immagine
+{
+  position: absolute;
+  top: 15%;
+  left: 73%;
+}

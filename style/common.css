@@ -1,0 +1,228 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Bellota Text', cursive;
+  overflow-x: hidden;
+  background-color: #D4D4D4;
+}
+*::selection
+{
+  color:#0007a9;
+  background-color: #ffb957;  
+}
+a:visited
+{
+ color: #000000;  
+}
+::-webkit-scrollbar
+{
+  display: none;
+}
+
+/*Navbar e Header*/
+header
+{
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+  width: 110%;
+  background-color: #D4D4D4;
+  height: 15%;
+  position: absolute;
+  bottom: 85%;
+  right: -1%; 
+}
+
+.header-contenute
+{
+  position: relative;
+  top: 25%;
+}
+
+.logo
+{
+  position: relative;
+  bottom: 30px;
+}
+
+.menuLink
+{
+  color: #000000;
+  transition-duration: 1s;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.menuLink:hover
+{
+  color: #0007a9;
+}
+
+#drop-menu 
+{
+  margin: 0px;
+  padding: 0;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+}
+
+ul#menu 
+{
+  padding: 0;
+  list-style: none;
+  float:left;
+  width: 100%;
+  font-size:80%;
+}
+
+ul#menu li 
+{
+  margin:0;
+  padding:0;
+  float:left;
+  width: 200px;
+  display: block;
+  position: relative;
+}
+
+ul#menu li a 
+{
+  float: left;
+  padding:12px 30px;
+  color: #000000;
+  text-transform: uppercase;
+  text-decoration:none;
+}
+
+ul#menu li .menuLink:hover 
+{
+  background: #c2c1c1;
+  color:#0007a9
+}
+
+ul#menu ul 
+{
+  margin:2px 0 0;
+  padding:0;
+  display:inline-block;
+  list-style: none;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 38px;
+  left: 0;
+  z-index:9999;
+  background: #c2c1c1;
+}
+
+ul#menu li:hover ul 
+{
+  opacity: 1;
+  visibility: visible;
+}
+
+ul#menu ul li 
+{
+  float: none;
+  display: block;
+  border: 0;
+}
+
+ul#menu ul a 
+{
+  padding:10px;
+  width: 130px;
+  display: block;
+  white-space: nowrap;
+  float: none;
+  text-transform: none;
+}
+
+ul#menu ul a:hover 
+{
+  background-color: #0186ba;
+  color:#FFFFFF;
+}
+
+/*Footer*/
+
+footer
+{
+  background-color: #D4D4D4;
+  height: 294px;
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  right: 0.02%;
+  padding: 0;
+}
+
+.infoFooter
+{
+  position: relative;
+  top: 65px;
+  left: 48px;
+}
+
+.infoElement
+{
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+.pvtPolicy
+{
+  position: relative;
+  top: 90%;
+}
+.pvtPolicy:hover
+{
+  color: #0007a9;
+}
+
+.social
+{
+  position: relative;
+  top: -1%;
+  left: 80%;
+}
+
+/*.instagram
+{
+  padding-right: 30px;
+}
+
+.twitter
+{
+  padding-right: 30px;
+}*/
+
+.instagram:hover
+{
+  content: url(img/instagramNd.png);
+}
+
+.twitter:hover
+{
+  content: url(img/twitterNd.png);
+}
+
+.youtube:hover
+{
+  content: url(img/youtubeNd.png);
+}
+
+hr
+{
+  width: 97%;
+  position: absolute;
+  top: 90%;
+  left: 1.5%;
+}
+
+.copyright
+{
+  text-align: center;  
+}

@@ -1,0 +1,94 @@
+* 
+{
+  box-sizing: border-box;
+}
+
+/* Posizionamento del container di immagini*/
+.container 
+{
+  position:relative;
+  background-color: #bcbcbc;
+  width: 70%;
+  height: 68%;
+  margin-top:3%;
+  margin-left: 15%;
+  top:50%;
+  border-radius: 5px;
+  
+}
+
+/* Hide the images by default */
+.mySlides 
+{
+  display: none;
+}
+
+/* Pulsanti successivo e precedente */
+.prec,
+.succ 
+{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Pulsante successivo a destra */
+.succ 
+{
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Cambio background ai pulsanti*/
+.prec:hover,
+.succ:hover 
+{
+  background-color: rgba(204, 204, 204, 0.8);
+}
+/* Container for image text */
+.caption-container 
+{
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+.description
+{
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 33px;
+  margin-top:4%;
+  margin-left:5%;
+  margin-right:12%;
+}
+h1
+{
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 33px;
+  color:black;
+  margin-top:7%;
+  background-color:#cccccc;
+}
+
+.contenute
+{
+  display: flex;
+}
+
+.txt
+{
+  width: 40%;
+  position: relative;
+  top: 50%;
+  left: 1%;
+}
