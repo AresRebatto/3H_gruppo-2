@@ -226,3 +226,21 @@ hr
 {
   text-align: center;  
 }
+
+.popUp
+{
+  visibility: hidden;
+  height: 700px;
+  width: 600px;
+  background-color: white;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 15%;
+  right: 30%;
+  transition: 0.5s;
+}
+
+.openpopUp
+{
+  visibility: visible;
+}
