@@ -272,11 +272,17 @@ hr
 {
   position: relative;
   top: 50px;
-  left: 40%;
+  left: 36%;
 }
 
+.close:hover
+{
+  font-weight: bold;
+  cursor: pointer;
+}
 .accept
 {
+  font-weight: bold;
   border: none;
   background-color: #06d1ff;
   border-radius: 17px;
@@ -286,8 +292,15 @@ hr
   
 }
 
+.accept:hover
+{
+  background-color: #00b3db;
+  cursor: pointer;
+}
+
 .reject
 {
+  font-weight: bold;
   background-color: white;
   border-color: #000000;
   border-radius: 17px;
@@ -295,12 +308,25 @@ hr
   
 }
 
+.reject:hover
+{
+  background-color: #e3e3e3;
+  cursor: pointer;
+}
+
 .customize
 {
+  font-weight: bold;
   background-color: white;
   border-color: #000000;
   border-radius: 17px;
   padding: 8px;
+}
+
+.customize:hover
+{
+  background-color: #e3e3e3;
+  cursor: pointer;
 }
 
 .policy
@@ -319,4 +345,10 @@ hr
   text-decoration: underline;
   position: relative;
   top: 35px;
+  font-weight:lighter;
+}
+
+.cookiebtn:hover
+{
+  color: blue;
 }
