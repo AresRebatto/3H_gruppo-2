@@ -1,7 +1,7 @@
 .checkBox
 {
     position: absolute;
-    top: 15%;
+    top: 20%;
     left: 10%;
     display: flex;
 }
@@ -10,6 +10,8 @@
 {
     padding-right: 400px;
 }
+
+
 
 .EsentialCookies
 {
@@ -118,4 +120,78 @@
   
   .slider.round:before {
     border-radius: 50%;
+  }
+
+  .CookiesScnd
+  {
+    display: flex;
+    position: absolute;
+    top: 130%;
+  }
+
+  .CookiesScndTxt
+  {
+    position: relative;
+    bottom: 15px;
+    width: 150px;
+  }
+
+  .CookiesThrd
+  {
+    display: flex;
+    position: absolute;
+    top: 280%;
+    right: 66%;
+  }
+
+  .CookiesThrdTxt
+  {
+    position: relative;
+    bottom: 15px;
+    width: 190px;
+  }
+  
+  .CookiesFour
+  {
+    display: flex;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+  }
+
+  .CookiesFourTxt
+  {
+    position: relative;
+    bottom: 15px;
+    width: 200px;
+  }
+
+  .CookiesFive
+  {
+    display: flex;
+    position: absolute;
+    top: 130%;
+    left: 50%;
+  }
+
+  .CookiesFiveTxt
+  {
+    position: relative;
+    bottom: 15px;
+    width: 200px;
+  }
+
+  .CookiesSix
+  {
+    display: flex;
+    position: absolute;
+    top: 280%;
+    left: 50%;
+  }
+
+  .CookiesSixTxt
+  {
+    position: relative;
+    bottom: 15px;
+    width: 200px;
   }
