@@ -236,9 +236,10 @@ hr
   background-color: rgb(243, 243, 243);
   border-radius: 20px;
   position: absolute;
-  bottom: 40%;
+  bottom: 20%;
   right: 30%;
   transition: 0.5s;
+  position: fixed;
 }
 
 .openpopUp

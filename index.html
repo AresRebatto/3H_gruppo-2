@@ -110,20 +110,6 @@
         </div>
       </div>
     </div>
-    <div class="popUp" id="popup">
-      <input type="button" value="X" class="close" onclick="closePopUp()">
-      <div class="popUpContent">
-        <h1>COOKIES</h1>
-        <p class="cookiesText">Questo sito fa uso dei cookies. Premere "Accetta tutti" per accettare, "rifiuta tutti" per rifiutare o "personalizza" per personalizzare le impostazioni</p>
-        <div class="answer">
-          <input type="button" value="Rifiuta Tutti" class="reject" onclick="closePopUp()">
-          <a href="customize.html">
-            <input type="button" value="Personalizza" class="customize" onclick="Customize()">
-          </a>
-          <input type="button" value="Accetta Tutti" class="accept" onclick="closePopUp()">
-        </div>
-      </div>
-    </div>
   </section>
 
   <footer>
@@ -147,10 +133,20 @@
     <hr>
     <p class="copyright">©2023 All rights Reserved</p>
   </footer>
-  <script>
-    let popup = document.getElementById("popup")
-    popup.classList.add("openpopUp")
-  </script>
+  <div class="popUp" id="popup">
+    <input type="button" value="X" class="close" onclick="closePopUp()">
+    <div class="popUpContent">
+      <h1>COOKIES</h1>
+      <p class="cookiesText">Questo sito fa uso dei cookies. Premere "Accetta tutti" per accettare, "rifiuta tutti" per rifiutare o "personalizza" per personalizzare le impostazioni</p>
+      <div class="answer">
+        <input type="button" value="Rifiuta Tutti" class="reject" onclick="closePopUp()">
+        <a href="customize.html">
+          <input type="button" value="Personalizza" class="customize" onclick="Customize()">
+        </a>
+        <input type="button" value="Accetta Tutti" class="accept" onclick="closePopUp()">
+      </div>
+    </div>
+  </div>
   <script src="cookie.js"></script>
 </body>
 
