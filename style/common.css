@@ -339,17 +339,18 @@ hr
 
 .cookiebtn
 {
-  background-color: #D4D4D4;
+  background: transparent;
   border: none;
   padding: 0px;
   font-size: 12px;
   text-decoration: underline;
-  position: relative;
-  top: 35px;
+  position: fixed;
+  top: 90%;
+  left: 20px;
   font-weight:lighter;
 }
 
 .cookiebtn:hover
 {
-  color: blue;
+  cursor: pointer;
 }

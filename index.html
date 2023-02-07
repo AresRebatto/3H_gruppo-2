@@ -118,7 +118,6 @@
       <p class="infoElement"><b>e-mail info@HAG&co.com</b></p>
       <p class="infoElement"><b>Sito a cura di HAG</b></p><br><br>
       <div class="policy">
-        <input type="button" value="cookies policy" class="cookiebtn" onclick="openPopUp()">
         <a href="privacy policy.html">
           <p class="pvtPolicy">Privacy Policy</p>
         </a>
@@ -132,21 +131,24 @@
     <br><br>
     <hr>
     <p class="copyright">©2023 All rights Reserved</p>
+    <button class="cookiebtn" onclick="openPopUp()">
+      <img src="style/img/cookies.png" alt="" height="50px">
+    </button>
   </footer>
   <div class="popUp" id="popup">
-    <input type="button" value="X" class="close" onclick="closePopUp()">
-    <div class="popUpContent">
-      <h1>COOKIES</h1>
-      <p class="cookiesText">Questo sito fa uso dei cookies. Premere "Accetta tutti" per accettare, "rifiuta tutti" per rifiutare o "personalizza" per personalizzare le impostazioni</p>
-      <div class="answer">
-        <input type="button" value="Rifiuta Tutti" class="reject" onclick="closePopUp()">
-        <a href="customize.html">
-          <input type="button" value="Personalizza" class="customize" onclick="Customize()">
-        </a>
-        <input type="button" value="Accetta Tutti" class="accept" onclick="closePopUp()">
+      <input type="button" value="X" class="close" onclick="closePopUp()">
+      <div class="popUpContent">
+        <h1>COOKIES</h1>
+        <p class="cookiesText">Questo sito fa uso dei cookies. Premere "Accetta tutti" per accettare, "rifiuta tutti" per rifiutare o "personalizza" per personalizzare le impostazioni</p>
+        <div class="answer">
+          <input type="button" value="Rifiuta Tutti" class="reject" onclick="closePopUp()">
+          <a href="customize.html">
+            <input type="button" value="Personalizza" class="customize" onclick="Customize()">
+          </a>
+          <input type="button" value="Accetta Tutti" class="accept" onclick="closePopUp()">
+        </div>
       </div>
     </div>
-  </div>
   <script src="cookie.js"></script>
 </body>
 
